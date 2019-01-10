@@ -6,10 +6,12 @@ import javax.inject.Singleton;
 import dagger.Component;
 import ownvk.ruslan.android.myownvk.ui.activity.BaseActivity;
 import ownvk.ruslan.android.myownvk.ui.activity.MainActivity;
+import ownvk.ruslan.android.myownvk.ui.fragment.NewsFeedFragment;
 
 @Singleton
 @Component(modules = {ApplicationModule.class, ManagerModule.class, RestModule.class})
 public interface ApplicationComponent {
 	void inject(BaseActivity baseActivity);
 	void inject(MainActivity mainActivity);
+	void inject(NewsFeedFragment fragment);
 }

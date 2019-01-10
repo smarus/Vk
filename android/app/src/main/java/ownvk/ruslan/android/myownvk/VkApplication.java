@@ -17,6 +17,7 @@ public class VkApplication extends Application {
 		super.onCreate();
 
 		VKSdk.initialize(this);
+		initComponent();
 	}
 
 	private void initComponent() {

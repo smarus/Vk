@@ -7,7 +7,7 @@ public class CurrentUser {
 
 	public static String getAccessToken(){
 
-		if (VKAccessToken.currentToken() != null){
+		if (VKAccessToken.currentToken() == null){
 			return null;
 		}
 		return VKAccessToken.currentToken().accessToken;
