@@ -1,4 +1,4 @@
-package ownvk.ruslan.android.myownvk.rest.model;
+package ownvk.ruslan.android.myownvk.rest.model.response;
 
 import java.util.ArrayList;
 import java.util.List;

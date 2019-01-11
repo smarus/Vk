@@ -3,9 +3,15 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             android:background="@color/colorDefaultWhite"
+
              tools:context=".ui.fragment.NewsFeedFragment">
+    
 
-
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
 
 </RelativeLayout>

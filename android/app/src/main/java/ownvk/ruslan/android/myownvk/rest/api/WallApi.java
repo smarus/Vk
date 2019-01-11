@@ -1,16 +1,15 @@
 package ownvk.ruslan.android.myownvk.rest.api;
 
-import ownvk.ruslan.android.myownvk.rest.model.BaseItemResponse;
-import ownvk.ruslan.android.myownvk.rest.model.Full;
+import java.util.Map;
+
+import ownvk.ruslan.android.myownvk.rest.model.response.WallGetResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
+import retrofit2.http.QueryMap;
 
 public interface WallApi {
 
 	@GET(ApiMethods.WALL_GET)
-	Call<Full<BaseItemResponse>> get(@Query("owner_id") String ownerId,
-									 @Query("access_token") String accessToken,
-									 @Query("extended") Integer extended,
-									 @Query("v") String version);
+	Call<WallGetResponse> get(@QueryMap Map<String,String> map);
 }

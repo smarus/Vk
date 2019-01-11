@@ -72,6 +72,5 @@ public class MainActivity extends BaseActivity implements MainView {
     @Override
     public void signedId() {
         Toast.makeText(getBaseContext(),"Current user id:"+ CurrentUser.getId(),Toast.LENGTH_LONG).show();
-        setContent(new NewsFeedFragment());
-    }
+        setContent(new NewsFeedFragment());    }
 }

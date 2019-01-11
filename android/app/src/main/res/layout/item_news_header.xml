@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp">
+        <RelativeLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_profile_image"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                tools:src="@color/colorAccent"/>
+
+            <TextView
+                android:lines="1"
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/civ_profile_image"
+                tools:text="Ruslan"/>
+
+            <ImageView
+                android:id="@+id/reposted_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"
+                android:tint="@color/colorIcon"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/profile_name"
+                android:src="@mipmap/ic_arrow_back"/>
+
+            <TextView
+                android:id="@+id/reposted_profile_name"
+                android:layout_width="wrap_content"
+                tools:text="Reposted"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/reposted_icon"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="15sp"
+                android:textColor="@color/colorAccent"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDivider"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>

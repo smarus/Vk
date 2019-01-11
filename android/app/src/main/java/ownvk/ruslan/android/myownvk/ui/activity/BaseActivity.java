@@ -17,56 +17,59 @@ import ownvk.ruslan.android.myownvk.ui.fragment.BaseFragment;
 
 public abstract class BaseActivity extends MvpAppCompatActivity {
 
+
 	@Inject
 	MyFragmentManager myFragmentManager;
 
+	Toolbar toolbar;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		VkApplication.getApplicationComponent().inject(this);
-
 		setContentView(R.layout.activity_base);
 
+		VkApplication.getApplicationComponent().inject(this);
 
-		Toolbar toolbar  = (Toolbar) findViewById(R.id.toolbar);
+		toolbar = (Toolbar) findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
 
-		FrameLayout parent =(FrameLayout)findViewById(R.id.main_wrapper);
-		getLayoutInflater().inflate(getMainContentLayout(),parent);
-
-	}
-
-	public void setToolbarTitle(String title){
-		if (getSupportActionBar() != null){
-			getSupportActionBar().setTitle(title);
-		}
+		FrameLayout parent = (FrameLayout) findViewById(R.id.main_wrapper);
+		getLayoutInflater().inflate(getMainContentLayout(), parent);
 	}
 
 
 	@LayoutRes
 	protected abstract int getMainContentLayout();
 
-	public void fragmentOnScreen(BaseFragment fragment){
-		setToolbarTitle(fragment.createToolbarTitle(this));
 
+	public void fragmentOnScreen(BaseFragment baseFragment) {
+		setToolbarTitle(baseFragment.createToolbarTitle(this));
 	}
 
-	public void setContent(BaseFragment fragment){
-		myFragmentManager.setFragment(this,fragment,R.id.main_wrapper);
+
+	private void setToolbarTitle(String title) {
+		if (getSupportActionBar() != null) {
+			getSupportActionBar().setTitle(title);
+		}
 	}
 
-	public void addContent(BaseFragment fragment){
-		myFragmentManager.addFragment(this,fragment,R.id.main_wrapper);
+
+	public void setContent(BaseFragment fragment) {
+		myFragmentManager.setFragment(this, fragment, R.id.main_wrapper);
 	}
 
-	public boolean removeCurrentFragment(){
+	public void addContent(BaseFragment fragment) {
+		myFragmentManager.addFragment(this, fragment, R.id.main_wrapper);
+	}
+
+	public boolean removeCurrentFragment() {
 		return myFragmentManager.removeCurrentFragment(this);
 	}
 
-	public void  removeFragment(BaseFragment fragment){
-		myFragmentManager.removeFragment(this,fragment);
+	public boolean removeFragment(BaseFragment fragment) {
+		return myFragmentManager.removeFragment(this, fragment);
 	}
+
 
 	@Override
 	public void onBackPressed() {
