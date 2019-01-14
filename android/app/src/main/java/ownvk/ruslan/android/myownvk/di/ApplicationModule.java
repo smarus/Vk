@@ -37,4 +37,5 @@ public class ApplicationModule {
 		return Typeface.createFromAsset(context.getAssets(), "MaterialIconsRegular.ttf");
 
 	}
+
 }

@@ -6,7 +6,7 @@
     android:id="@+id/root_view"
     android:clickable="true"
     android:focusable="true"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
 
     <RelativeLayout
@@ -24,7 +24,7 @@
 
             <TextView
                 android:lines="1"
-                android:id="@+id/profile_name"
+                android:id="@+id/tv_profile_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -37,7 +37,7 @@
                 tools:text="Ruslan"/>
 
             <ImageView
-                android:id="@+id/reposted_icon"
+                android:id="@+id/tv_reposted_icon"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:layout_marginStart="4dp"
@@ -46,16 +46,16 @@
                 android:layout_marginEnd="4dp"
                 android:tint="@color/colorIcon"
                 android:layout_centerVertical="true"
-                android:layout_toRightOf="@id/profile_name"
+                android:layout_toRightOf="@id/tv_profile_name"
                 android:src="@mipmap/ic_arrow_back"/>
 
             <TextView
-                android:id="@+id/reposted_profile_name"
+                android:id="@+id/tv_reposted_profile_name"
                 android:layout_width="wrap_content"
                 tools:text="Reposted"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:layout_toRightOf="@id/reposted_icon"
+                android:layout_toRightOf="@id/tv_reposted_icon"
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:textSize="15sp"

@@ -17,11 +17,14 @@ import javax.inject.Inject;
 import ownvk.ruslan.android.myownvk.R;
 import ownvk.ruslan.android.myownvk.VkApplication;
 import ownvk.ruslan.android.myownvk.common.BaseAdapter;
+import ownvk.ruslan.android.myownvk.common.utils.VkListHelper;
 import ownvk.ruslan.android.myownvk.model.WallItem;
+import ownvk.ruslan.android.myownvk.model.view.BaseViewModel;
 import ownvk.ruslan.android.myownvk.model.view.NewsItemBodyViewModel;
+import ownvk.ruslan.android.myownvk.model.view.NewsItemHeaderViewModel;
 import ownvk.ruslan.android.myownvk.rest.api.WallApi;
 import ownvk.ruslan.android.myownvk.rest.model.request.WallGetRequestModel;
-import ownvk.ruslan.android.myownvk.rest.model.response.WallGetResponse;
+import ownvk.ruslan.android.myownvk.rest.model.response.GetWallResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -53,19 +56,21 @@ public class NewsFeedFragment extends BaseFragment {
 	@Override
 	public void onActivityCreated(@Nullable Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		mWallApi.get(new WallGetRequestModel(-86529522).toMap()).enqueue(new Callback<WallGetResponse>() {
+		mWallApi.get(new WallGetRequestModel(-86529522).toMap()).enqueue(new Callback<GetWallResponse>() {
 			@Override
-			public void onResponse(Call<WallGetResponse> call, Response<WallGetResponse> response) {
+			public void onResponse(Call<GetWallResponse> call, Response<GetWallResponse> response) {
 				Toast.makeText(getContext(),""+ response.body().response.items.get(0).getLikes().getCount(),Toast.LENGTH_SHORT).show();
-				List<NewsItemBodyViewModel> list = new ArrayList<>();
-				for(WallItem item : response.body().response.getItems()){
+				List<WallItem> wallItems = VkListHelper.getWallList(response.body().response);
+				List<BaseViewModel> list = new ArrayList<>();
+				for (WallItem item : wallItems) {
+					list.add(new NewsItemHeaderViewModel(item));
 					list.add(new NewsItemBodyViewModel(item));
 				}
 				mBaseAdapter.addItems(list);
 			}
 
 			@Override
-			public void onFailure(Call<WallGetResponse> call, Throwable t) {
+			public void onFailure(Call<GetWallResponse> call, Throwable t) {
 
 			}
 		});
