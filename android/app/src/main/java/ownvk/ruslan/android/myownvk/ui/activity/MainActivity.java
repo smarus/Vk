@@ -1,25 +1,19 @@
 package ownvk.ruslan.android.myownvk.ui.activity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.arellomobile.mvp.MvpAppCompatActivity;
 import com.arellomobile.mvp.presenter.InjectPresenter;
 import com.vk.sdk.VKAccessToken;
 import com.vk.sdk.VKCallback;
 import com.vk.sdk.VKSdk;
 import com.vk.sdk.api.VKError;
-import com.vk.sdk.util.VKUtil;
-
-import java.util.Arrays;
 
 import ownvk.ruslan.android.myownvk.CurrentUser;
 import ownvk.ruslan.android.myownvk.R;
 import ownvk.ruslan.android.myownvk.VkApplication;
-import ownvk.ruslan.android.myownvk.common.MyFragmentManager;
 import ownvk.ruslan.android.myownvk.consts.ApiConstants;
 import ownvk.ruslan.android.myownvk.mvp.presenter.MainPresenter;
 import ownvk.ruslan.android.myownvk.mvp.view.MainView;
@@ -54,6 +48,7 @@ public class MainActivity extends BaseActivity implements MainView {
             public void onResult(VKAccessToken res) {
 //
                 mPresenter.checkAuth();
+                Log.e("TAG",res.accessToken);
             }
             @Override
             public void onError(VKError error) {

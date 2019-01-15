@@ -6,9 +6,12 @@ import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import io.realm.RealmList;
+import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 import ownvk.ruslan.android.myownvk.model.attachment.ApiAttachment;
 
-public class WallItem {
+public class WallItem  extends RealmObject {
 
     public String senderName;
     public String senderPhoto;
@@ -16,6 +19,7 @@ public class WallItem {
 
 
 
+    @PrimaryKey
     @SerializedName("id")
     @Expose
     private Integer id;
@@ -42,12 +46,11 @@ public class WallItem {
     private Integer canPin;
     @SerializedName("attachments")
     @Expose
-    private List<ApiAttachment> attachments = new ArrayList<>();
+    private RealmList<ApiAttachment> apiAttachments = new RealmList<>();
 
     @SerializedName("copy_history")
     @Expose
-    private List<WallItem> copyHistory = new ArrayList<>();
-
+    private RealmList<WallItem> copyHistory = new RealmList<>();
     @SerializedName("post_source")
     @Expose
     private PostSource postSource;
@@ -63,6 +66,15 @@ public class WallItem {
     @SerializedName("views")
     @Expose
     private Views views;
+
+
+    public String getAttachmentsString() {
+        return attachmentsString;
+    }
+
+    public void setAttachmentsString(String attachmentsString) {
+        this.attachmentsString = attachmentsString;
+    }
 
     public Integer getId() {
         return id;
@@ -128,13 +140,6 @@ public class WallItem {
         this.canPin = canPin;
     }
 
-    public List<ApiAttachment> getAttachments() {
-        return attachments;
-    }
-
-    public void setAttachments(List<ApiAttachment> attachments) {
-        this.attachments = attachments;
-    }
 
     public PostSource getPostSource() {
         return postSource;
@@ -204,12 +209,13 @@ public class WallItem {
         return null;
     }
 
-    public String getAttachmentsString() {
-        return attachmentsString;
+    public RealmList<ApiAttachment> getApiAttachments() {
+        return apiAttachments;
+
     }
 
-    public void setAttachmentsString(String attachmentsString) {
-        this.attachmentsString = attachmentsString;
+    public void setApiAttachments(RealmList<ApiAttachment> apiAttachments) {
+        this.apiAttachments = apiAttachments;
     }
 
 }

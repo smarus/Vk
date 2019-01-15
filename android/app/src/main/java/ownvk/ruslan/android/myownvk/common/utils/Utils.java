@@ -40,6 +40,26 @@ public class Utils {
 	}
 
 
+	public static String parseDate(long initialDate, Context context) {
+		Locale currentlocale = context.getResources().getConfiguration().locale;
+
+		Date date = new Date(initialDate * 1000);
+
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(date);
+
+		SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yy в H:mm", currentlocale);
+
+		if (calendar.get(Calendar.DAY_OF_YEAR) == Calendar.getInstance().get(Calendar.DAY_OF_YEAR) &&
+				calendar.get(Calendar.YEAR) == Calendar.getInstance().get(Calendar.YEAR)) {
+			sdf = new SimpleDateFormat("сегодня в H:mm", currentlocale);
+		} else if (calendar.get(Calendar.YEAR) == Calendar.getInstance().get(Calendar.YEAR)) {
+			sdf = new SimpleDateFormat("d MMM в H:mm", currentlocale);
+		}
+		return sdf.format(date);
+	}
+
+
 
 
 }

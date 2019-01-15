@@ -4,6 +4,8 @@ import android.app.Application;
 
 import com.vk.sdk.VKSdk;
 
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
 import ownvk.ruslan.android.myownvk.di.ApplicationComponent;
 import ownvk.ruslan.android.myownvk.di.ApplicationModule;
 import ownvk.ruslan.android.myownvk.di.DaggerApplicationComponent;
@@ -18,6 +20,13 @@ public class VkApplication extends Application {
 
 		VKSdk.initialize(this);
 		initComponent();
+
+		Realm.init(this);
+		RealmConfiguration realmConfiguration = new RealmConfiguration
+				.Builder()
+				.deleteRealmIfMigrationNeeded()
+				.build();
+		Realm.setDefaultConfiguration(realmConfiguration);
 	}
 
 	private void initComponent() {

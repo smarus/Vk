@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 
 import com.arellomobile.mvp.MvpAppCompatFragment;
 
+import ownvk.ruslan.android.myownvk.ui.activity.BaseActivity;
+
 public abstract class BaseFragment extends MvpAppCompatFragment {
 
 
@@ -27,4 +29,9 @@ public abstract class BaseFragment extends MvpAppCompatFragment {
 
 	@StringRes
 	public abstract int onCreateToolbarTitle();
+
+
+	public BaseActivity getBaseActivity() {
+		return (BaseActivity) getActivity();
+	}
 }

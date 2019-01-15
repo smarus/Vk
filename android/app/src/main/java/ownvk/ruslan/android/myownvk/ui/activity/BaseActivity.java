@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.v7.widget.Toolbar;
 import android.widget.FrameLayout;
+import android.widget.ProgressBar;
 
 
 import com.arellomobile.mvp.MvpAppCompatActivity;
@@ -12,7 +13,7 @@ import javax.inject.Inject;
 
 import ownvk.ruslan.android.myownvk.R;
 import ownvk.ruslan.android.myownvk.VkApplication;
-import ownvk.ruslan.android.myownvk.common.MyFragmentManager;
+import ownvk.ruslan.android.myownvk.common.manager.MyFragmentManager;
 import ownvk.ruslan.android.myownvk.ui.fragment.BaseFragment;
 
 public abstract class BaseActivity extends MvpAppCompatActivity {
@@ -22,6 +23,8 @@ public abstract class BaseActivity extends MvpAppCompatActivity {
 	MyFragmentManager myFragmentManager;
 
 	Toolbar toolbar;
+
+	protected ProgressBar mProgressBar;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,7 @@ public abstract class BaseActivity extends MvpAppCompatActivity {
 		toolbar = (Toolbar) findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
 
+		mProgressBar = (ProgressBar) findViewById(R.id.progress);
 		FrameLayout parent = (FrameLayout) findViewById(R.id.main_wrapper);
 		getLayoutInflater().inflate(getMainContentLayout(), parent);
 	}
@@ -74,5 +78,9 @@ public abstract class BaseActivity extends MvpAppCompatActivity {
 	@Override
 	public void onBackPressed() {
 		removeCurrentFragment();
+	}
+
+	public ProgressBar getProgressBar() {
+		return mProgressBar;
 	}
 }

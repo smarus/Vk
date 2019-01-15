@@ -26,7 +26,7 @@ public class VkListHelper {
 
 
 				wallItem.getSharedRepost().setAttachmentsString(Utils.convertAttachmentsToFontIcons(
-						wallItem.getSharedRepost().getAttachments()));
+						wallItem.getSharedRepost().getApiAttachments()));
 			}
 		}
 		return wallItems;

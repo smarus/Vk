@@ -1,5 +1,7 @@
 package ownvk.ruslan.android.myownvk;
 
+import android.util.Log;
+
 import com.vk.sdk.VKAccessToken;
 import com.vk.sdk.VKSdk;
 

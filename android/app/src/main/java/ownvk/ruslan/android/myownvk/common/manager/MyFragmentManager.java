@@ -1,4 +1,4 @@
-package ownvk.ruslan.android.myownvk.common;
+package ownvk.ruslan.android.myownvk.common.manager;
 
 import android.support.annotation.IdRes;
 import android.support.v4.app.FragmentTransaction;
