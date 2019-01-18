@@ -9,11 +9,14 @@ import java.util.concurrent.Callable;
 import javax.inject.Inject;
 
 import io.reactivex.Observable;
+import io.reactivex.ObservableTransformer;
 import io.realm.Realm;
 import io.realm.RealmResults;
 import io.realm.Sort;
+import ownvk.ruslan.android.myownvk.CurrentUser;
 import ownvk.ruslan.android.myownvk.VkApplication;
 import ownvk.ruslan.android.myownvk.common.utils.VkListHelper;
+import ownvk.ruslan.android.myownvk.consts.ApiConstants;
 import ownvk.ruslan.android.myownvk.model.WallItem;
 import ownvk.ruslan.android.myownvk.model.view.BaseViewModel;
 import ownvk.ruslan.android.myownvk.model.view.NewsItemBodyViewModel;
@@ -29,6 +32,8 @@ public class NewsFeedPresenter extends BaseFeedPresenter<BaseFeedView> {
 	@Inject
 	WallApi mWallApi;
 
+	private boolean enableIdFiltering = false;
+
 
 	public NewsFeedPresenter() {
 		VkApplication.getApplicationComponent().inject(this);
@@ -36,8 +41,9 @@ public class NewsFeedPresenter extends BaseFeedPresenter<BaseFeedView> {
 
 	@Override
 	public Observable<BaseViewModel> onCreateLoadDataObservable(int count, int offset) {
-		return mWallApi.get(new WallGetRequestModel(-86529522,count,offset).toMap())
+		return mWallApi.get(new WallGetRequestModel(ApiConstants.MY_GROUP_ID, count, offset).toMap())
 				.flatMap(full -> Observable.fromIterable(VkListHelper.getWallList(full.response)))
+				.compose(applyFilter())
 				.doOnNext(this::saveToDb)
 				.flatMap(wallItem -> {
 					List<BaseViewModel> baseItems = new ArrayList<>();
@@ -52,6 +58,7 @@ public class NewsFeedPresenter extends BaseFeedPresenter<BaseFeedView> {
 	public Observable<BaseViewModel> onCreateRestoreDataObservable() {
 		return Observable.fromCallable(getListFromRealmCallable())
 				.flatMap(Observable::fromIterable)
+				.compose(applyFilter())
 				.flatMap(wallItem -> Observable.fromIterable(parsePojoModel(wallItem)));
 	}
 
@@ -72,5 +79,18 @@ public class NewsFeedPresenter extends BaseFeedPresenter<BaseFeedView> {
 					.findAllSorted(sortFields, sortOrder);
 			return realm.copyFromRealm(realmResults);
 		};
+	}
+
+	public void setEnableIdFiltering(boolean enableIdFiltering) {
+		this.enableIdFiltering = enableIdFiltering;
+	}
+
+	protected ObservableTransformer<WallItem, WallItem> applyFilter() {
+		if (enableIdFiltering && CurrentUser.getId() != null) {
+			return baseItemObservable -> baseItemObservable.
+					filter(wallItem -> CurrentUser.getId().equals(String.valueOf(wallItem.getFromId())));
+		} else {
+			return baseItemObservable -> baseItemObservable;
+		}
 	}
 }

@@ -11,6 +11,8 @@ import com.arellomobile.mvp.MvpAppCompatActivity;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import ownvk.ruslan.android.myownvk.R;
 import ownvk.ruslan.android.myownvk.VkApplication;
 import ownvk.ruslan.android.myownvk.common.manager.MyFragmentManager;
@@ -18,25 +20,25 @@ import ownvk.ruslan.android.myownvk.ui.fragment.BaseFragment;
 
 public abstract class BaseActivity extends MvpAppCompatActivity {
 
-
 	@Inject
 	MyFragmentManager myFragmentManager;
 
+	@BindView(R.id.toolbar)
 	Toolbar toolbar;
 
+	@BindView(R.id.progress)
 	protected ProgressBar mProgressBar;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_base);
+		ButterKnife.bind(this);
 
 		VkApplication.getApplicationComponent().inject(this);
 
-		toolbar = (Toolbar) findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
 
-		mProgressBar = (ProgressBar) findViewById(R.id.progress);
 		FrameLayout parent = (FrameLayout) findViewById(R.id.main_wrapper);
 		getLayoutInflater().inflate(getMainContentLayout(), parent);
 	}
@@ -74,13 +76,12 @@ public abstract class BaseActivity extends MvpAppCompatActivity {
 		return myFragmentManager.removeFragment(this, fragment);
 	}
 
+	public ProgressBar getProgressBar() {
+		return mProgressBar;
+	}
 
 	@Override
 	public void onBackPressed() {
 		removeCurrentFragment();
-	}
-
-	public ProgressBar getProgressBar() {
-		return mProgressBar;
 	}
 }

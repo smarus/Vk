@@ -1,7 +1,13 @@
 package ownvk.ruslan.android.myownvk;
 
 import android.app.Application;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
+import com.mikepenz.materialdrawer.util.AbstractDrawerImageLoader;
+import com.mikepenz.materialdrawer.util.DrawerImageLoader;
 import com.vk.sdk.VKSdk;
 
 import io.realm.Realm;
@@ -27,6 +33,14 @@ public class VkApplication extends Application {
 				.deleteRealmIfMigrationNeeded()
 				.build();
 		Realm.setDefaultConfiguration(realmConfiguration);
+
+
+		DrawerImageLoader.init(new AbstractDrawerImageLoader() {
+			@Override
+			public void set(ImageView imageView, Uri uri, Drawable placeholder, String tag) {
+				Glide.with(imageView.getContext()).load(uri).into(imageView);
+			}
+		});
 	}
 
 	private void initComponent() {

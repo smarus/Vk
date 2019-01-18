@@ -5,6 +5,8 @@ import javax.inject.Singleton;
 
 import dagger.Component;
 import ownvk.ruslan.android.myownvk.common.manager.NetworkManager;
+import ownvk.ruslan.android.myownvk.mvp.presenter.MainPresenter;
+import ownvk.ruslan.android.myownvk.mvp.presenter.MembersPresenter;
 import ownvk.ruslan.android.myownvk.mvp.presenter.NewsFeedPresenter;
 import ownvk.ruslan.android.myownvk.ui.activity.BaseActivity;
 import ownvk.ruslan.android.myownvk.ui.activity.MainActivity;
@@ -22,6 +24,8 @@ public interface ApplicationComponent {
 	void inject(NewsItemFooterHolder holder);
 	void inject(NewsFeedPresenter presenter);
 	void inject(NetworkManager manager);
+	void inject(MainPresenter presenter);
+	void inject(MembersPresenter presenter);
 
 
 }
