@@ -21,6 +21,8 @@ import ownvk.ruslan.android.myownvk.mvp.view.MainView;
 import ownvk.ruslan.android.myownvk.rest.api.UserApi;
 import ownvk.ruslan.android.myownvk.rest.model.request.UsersGetRequestModel;
 import ownvk.ruslan.android.myownvk.ui.fragment.BaseFragment;
+import ownvk.ruslan.android.myownvk.ui.fragment.BoardFragment;
+import ownvk.ruslan.android.myownvk.ui.fragment.InfoFragment;
 import ownvk.ruslan.android.myownvk.ui.fragment.MembersFragment;
 import ownvk.ruslan.android.myownvk.ui.fragment.MyPostsFragment;
 import ownvk.ruslan.android.myownvk.ui.fragment.NewsFeedFragment;
@@ -109,6 +111,12 @@ public class MainPresenter extends MvpPresenter<MainView> {
 				break;
 			case 4:
 				fragment = new MembersFragment();
+				break;
+			case 5:
+				fragment = new BoardFragment();
+				break;
+			case 6:
+				fragment = new InfoFragment();
 				break;
 		}
 
