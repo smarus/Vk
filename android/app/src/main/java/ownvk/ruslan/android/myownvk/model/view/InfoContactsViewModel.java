@@ -6,7 +6,7 @@ import android.widget.RelativeLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import ownvk.ruslan.android.myownvk.R;
-import ownvk.ruslan.android.myownvk.ui.holder.BaseViewHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.BaseViewHolder;
 
 public class InfoContactsViewModel extends BaseViewModel {
 	@Override

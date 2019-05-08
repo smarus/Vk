@@ -3,7 +3,7 @@ package ownvk.ruslan.android.myownvk.model.view;
 import android.view.View;
 
 import ownvk.ruslan.android.myownvk.model.WallItem;
-import ownvk.ruslan.android.myownvk.ui.holder.NewsItemBodyHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.NewsItemBodyHolder;
 
 public class NewsItemBodyViewModel extends BaseViewModel {
 	private int mId;
@@ -16,7 +16,6 @@ public class NewsItemBodyViewModel extends BaseViewModel {
 
 	public NewsItemBodyViewModel(WallItem wallItem) {
 		this.mId = wallItem.getId();
-		this.mText = wallItem.getText();
 		this.mIsRepost = wallItem.haveSharedRepost();
 
 		if (mIsRepost) {
@@ -48,12 +47,13 @@ public class NewsItemBodyViewModel extends BaseViewModel {
 		return mId;
 	}
 
-	public String getmAttachmentString() {
+	public String getAttachmentString() {
 		return mAttachmentString;
 	}
 
 	@Override
 	public boolean isItemDecorator() {
-		return false;
+		return true;
 	}
 }
+

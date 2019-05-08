@@ -1,4 +1,4 @@
-package ownvk.ruslan.android.myownvk.ui.holder;
+package ownvk.ruslan.android.myownvk.ui.view.holder;
 
 import android.content.Context;
 import android.view.View;

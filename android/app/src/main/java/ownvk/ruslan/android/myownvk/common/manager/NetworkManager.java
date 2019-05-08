@@ -14,7 +14,7 @@ import io.reactivex.Observable;
 import io.realm.internal.Util;
 import ownvk.ruslan.android.myownvk.VkApplication;
 
-public class NetworkManager {
+public class  NetworkManager {
 	@Inject
 	Context mContext;
 

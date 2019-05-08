@@ -1,9 +1,10 @@
-package ownvk.ruslan.android.myownvk.model.attachment;
+package ownvk.ruslan.android.myownvk.model.attachment.doc;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import com.vk.sdk.api.model.VKAttachments;
 
 import io.realm.RealmObject;
+import ownvk.ruslan.android.myownvk.model.attachment.Attachment;
 
 
 public class Doc extends RealmObject implements Attachment {
@@ -34,6 +35,14 @@ public class Doc extends RealmObject implements Attachment {
 	@SerializedName("access_key")
 	@Expose
 	private String accessKey;
+
+	@SerializedName("preview")
+	@Expose
+	private Preview preview;
+
+	public Preview getPreview() {
+		return preview;
+	}
 
 	public int getId() {
 		return id;

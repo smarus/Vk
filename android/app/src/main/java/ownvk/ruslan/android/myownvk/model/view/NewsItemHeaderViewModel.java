@@ -3,8 +3,8 @@ package ownvk.ruslan.android.myownvk.model.view;
 import android.view.View;
 
 import ownvk.ruslan.android.myownvk.model.WallItem;
-import ownvk.ruslan.android.myownvk.ui.holder.BaseViewHolder;
-import ownvk.ruslan.android.myownvk.ui.holder.NewsItemHeaderHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.BaseViewHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.NewsItemHeaderHolder;
 
 public class NewsItemHeaderViewModel extends BaseViewModel{
 

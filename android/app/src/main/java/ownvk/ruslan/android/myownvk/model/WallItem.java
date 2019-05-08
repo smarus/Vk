@@ -11,13 +11,11 @@ import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 import ownvk.ruslan.android.myownvk.model.attachment.ApiAttachment;
 
-public class WallItem  extends RealmObject {
+public class WallItem extends RealmObject {
 
-    public String senderName;
-    public String senderPhoto;
-    public String attachmentsString;
-
-
+    private String attachmentsString;
+    private String senderName;
+    private String senderPhoto;
 
     @PrimaryKey
     @SerializedName("id")
@@ -46,11 +44,12 @@ public class WallItem  extends RealmObject {
     private Integer canPin;
     @SerializedName("attachments")
     @Expose
-    private RealmList<ApiAttachment> apiAttachments = new RealmList<>();
+    private RealmList<ApiAttachment> attachments = new RealmList<>();
 
     @SerializedName("copy_history")
     @Expose
     private RealmList<WallItem> copyHistory = new RealmList<>();
+
     @SerializedName("post_source")
     @Expose
     private PostSource postSource;
@@ -66,7 +65,6 @@ public class WallItem  extends RealmObject {
     @SerializedName("views")
     @Expose
     private Views views;
-
 
     public String getAttachmentsString() {
         return attachmentsString;
@@ -140,6 +138,13 @@ public class WallItem  extends RealmObject {
         this.canPin = canPin;
     }
 
+    public RealmList<ApiAttachment> getAttachments() {
+        return attachments;
+    }
+
+    public void setAttachments(RealmList<ApiAttachment> attachments) {
+        this.attachments = attachments;
+    }
 
     public PostSource getPostSource() {
         return postSource;
@@ -185,18 +190,17 @@ public class WallItem  extends RealmObject {
         return senderName;
     }
 
-    public void setSenderName(String senderName) {
-        this.senderName = senderName;
-    }
-
     public String getSenderPhoto() {
         return senderPhoto;
+    }
+
+    public void setSenderName(String senderName) {
+        this.senderName = senderName;
     }
 
     public void setSenderPhoto(String senderPhoto) {
         this.senderPhoto = senderPhoto;
     }
-
 
     public boolean haveSharedRepost() {
         return copyHistory.size() > 0;
@@ -209,13 +213,6 @@ public class WallItem  extends RealmObject {
         return null;
     }
 
-    public RealmList<ApiAttachment> getApiAttachments() {
-        return apiAttachments;
 
-    }
-
-    public void setApiAttachments(RealmList<ApiAttachment> apiAttachments) {
-        this.apiAttachments = apiAttachments;
-    }
 
 }

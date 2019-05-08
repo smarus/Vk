@@ -7,8 +7,8 @@ import ownvk.ruslan.android.myownvk.model.WallItem;
 import ownvk.ruslan.android.myownvk.model.view.counter.CommentCounterViewModel;
 import ownvk.ruslan.android.myownvk.model.view.counter.LikeCounterViewModel;
 import ownvk.ruslan.android.myownvk.model.view.counter.RepostCounterViewModel;
-import ownvk.ruslan.android.myownvk.ui.holder.BaseViewHolder;
-import ownvk.ruslan.android.myownvk.ui.holder.NewsItemFooterHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.BaseViewHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.NewsItemFooterHolder;
 
 public class NewsItemFooterViewModel extends BaseViewModel{
 

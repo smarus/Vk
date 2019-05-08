@@ -21,6 +21,10 @@ public class Likes  extends RealmObject {
     @Expose
     private Integer canPublish;
 
+    public boolean isUserLikes () {
+        return userLikes == 1;
+    }
+
     public Integer getCount() {
         return count;
     }

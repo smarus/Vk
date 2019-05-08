@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 import ownvk.ruslan.android.myownvk.R;
 import ownvk.ruslan.android.myownvk.rest.model.Member;
-import ownvk.ruslan.android.myownvk.ui.holder.BaseViewHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.BaseViewHolder;
 
 public class MemberViewModel extends BaseViewModel {
 	public int id;

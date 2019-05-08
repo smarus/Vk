@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ownvk.ruslan.android.myownvk.model.view.BaseViewModel;
-import ownvk.ruslan.android.myownvk.ui.holder.BaseViewHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.BaseViewHolder;
 
 public class BaseAdapter extends RecyclerView.Adapter<BaseViewHolder<BaseViewModel>> {
 

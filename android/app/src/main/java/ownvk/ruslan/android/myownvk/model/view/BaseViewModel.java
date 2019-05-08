@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import ownvk.ruslan.android.myownvk.R;
-import ownvk.ruslan.android.myownvk.ui.holder.BaseViewHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.BaseViewHolder;
 
 public abstract class BaseViewModel {
 
@@ -28,7 +28,20 @@ public abstract class BaseViewModel {
 		Topic(R.layout.item_topic),
 		InfoStatus(R.layout.item_info_status),
 		InfoContacts(R.layout.item_info_contacts),
-		InfoLinks(R.layout.item_info_links);
+		InfoLinks(R.layout.item_info_links),
+		AttachmentAudio(R.layout.item_attachment_audio),
+		AttachmentDoc(R.layout.item_attachment_doc),
+		AttachmentDocImage(R.layout.item_attachment_doc_image),
+		AttachmentImage(R.layout.item_attachment_image),
+		AttachmentLink(R.layout.item_attachment_link),
+		AttachmentLinkExternal(R.layout.item_attachment_link_external),
+		AttachmentPage(R.layout.item_attachment_page),
+		AttachmentVideo(R.layout.item_attachment_video),
+		OpenedPostHeader(R.layout.item_opened_post_header),
+		OpenedPostRepostHeader(R.layout.item_opened_post_repost_header),
+		CommentHeader(R.layout.item_comment_header),
+		CommentBody(R.layout.item_comment_body),
+		CommentFooter(R.layout.item_comment_footer);
 
 
 		private final int id;

@@ -7,7 +7,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import ownvk.ruslan.android.myownvk.R;
 import ownvk.ruslan.android.myownvk.model.Group;
-import ownvk.ruslan.android.myownvk.ui.holder.BaseViewHolder;
+import ownvk.ruslan.android.myownvk.ui.view.holder.BaseViewHolder;
 
 public class InfoStatusViewModel extends BaseViewModel {
 	private String mStatus;

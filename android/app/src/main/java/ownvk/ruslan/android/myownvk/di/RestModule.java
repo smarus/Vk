@@ -8,6 +8,7 @@ import ownvk.ruslan.android.myownvk.rest.RestClient;
 import ownvk.ruslan.android.myownvk.rest.api.BoardApi;
 import ownvk.ruslan.android.myownvk.rest.api.GroupsApi;
 import ownvk.ruslan.android.myownvk.rest.api.UserApi;
+import ownvk.ruslan.android.myownvk.rest.api.VideoApi;
 import ownvk.ruslan.android.myownvk.rest.api.WallApi;
 
 @Module
@@ -49,6 +50,12 @@ public class RestModule {
 	@Singleton
 	public BoardApi provideBoardApi() {
 		return mRestClient.createService(BoardApi.class);
+	}
+
+	@Provides
+	@Singleton
+	public VideoApi provideVideoApi() {
+		return mRestClient.createService(VideoApi.class);
 	}
 
 }
