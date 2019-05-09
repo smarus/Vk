@@ -10,107 +10,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88034d18-d4c9-477f-80cb-e650f32c980e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/UiHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/CommentItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/PhotoPreview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Preview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/video/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/countable/Countable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/CommentBodyViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/CommentFooterViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/CommentHeaderViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/OpenedPostHeaderViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/OpenedPostRepostHeaderViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/AudioAttachmentViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/DocAttachmentViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/DocImageAttachmentViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/ImageAttachmentViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/LinkAttachmentViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/LinkExternalViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/PageAttachmentViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/VideoAttachmentViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/presenter/CommentsPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/presenter/OpenedPostPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/presenter/TopicCommentsPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/view/OpenedPostView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/view/PostFooterView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/LikeEventOnSubscribe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/VideoApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/request/BoardGetCommentsRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/request/VideoGetRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/request/WallGetByIdRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/request/WallGetCommentsRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/response/GetWallByIdResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/response/VideosResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/CommentsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/ImageFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/OpenedCommentFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/OpenedCommentPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/OpenedPostFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/TopicCommentsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/attachment/DocImageAttachmentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/attachment/ImageAttachmentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/attachment/VideoAttachmentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/AudioAttachmentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/DocAttachmentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/LinkAttachmentViewHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/LinkExternalAttachmentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/PageAttachmentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_audiotrack_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_insert_drive_file_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_link_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_local_movies_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_play_circle_outline_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_opened_wall_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_webview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_attachment_audio.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_attachment_doc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_attachment_doc_image.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_attachment_image.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_attachment_link.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_attachment_link_external.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_attachment_page.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_attachment_video.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_comment_body.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_comment_footer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_comment_header.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_opened_post_header.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_opened_post_repost_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/SendCommentEventOnSubscribe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/SendCreatedPostEventOnSubscribe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/UploadFileEventOnSubscribe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/UploadPhotoEventOnSubscribe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/CreatePostTextViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/activity/CreatePostActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/dialog/AddAttachmentDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_add_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_attach_file_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_close_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_done_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_create_post.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_create_post_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/menu/menu_create_post.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/BaseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/BaseAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/manager/NetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/manager/NetworkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/VkListHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/VkListHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/consts/ApiConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/consts/ApiConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/di/ApplicationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/di/ApplicationComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/di/RestModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/di/RestModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/Likes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/Likes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/WallItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/WallItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/ApiAttachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/ApiAttachment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/Doc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Doc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/video/Video.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/BaseViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/BaseViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/InfoContactsViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/InfoContactsViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/InfoLinksViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/InfoLinksViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/InfoStatusViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/InfoStatusViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/MemberViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/MemberViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/NewsItemBodyViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/NewsItemBodyViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/NewsItemFooterViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/NewsItemFooterViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/NewsItemHeaderViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/NewsItemHeaderViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/TopicViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/TopicViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/ApiMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/ApiMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/BoardApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/BoardApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/WallApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/WallApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/holder/BaseViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/BaseViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/holder/NewsItemBodyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/NewsItemBodyHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/holder/NewsItemFooterHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/NewsItemFooterHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/holder/NewsItemHeaderHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/NewsItemHeaderHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/activity/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/activity/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/CommentsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/CommentsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/NewsFeedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/NewsFeedFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_base.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_base.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,29 +63,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="aidl" value="1" />
-          <entry key="java" value="151" />
-          <entry key="xml" value="18" />
+          <entry key="gradle" value="2" />
+          <entry key="java" value="166" />
+          <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="151" />
+          <entry key="Groovy" value="2" />
+          <entry key="JAVA" value="166" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="18" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2042" />
+          <entry key="gradle" value="13" />
+          <entry key="java" value="2069" />
           <entry key="txt" value="13" />
-          <entry key="xml" value="89" />
+          <entry key="xml" value="159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2042" />
+          <entry key="Groovy" value="13" />
+          <entry key="JAVA" value="2069" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="XML" value="89" />
+          <entry key="XML" value="159" />
         </counts>
       </usages-collector>
     </session>
@@ -167,98 +97,35 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/NewsItemFooterHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/ApiMethods.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/SendCommentEventOnSubscribe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/BoardApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/consts/ApiConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/request/BoardGetCommentsRequestModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1117#1118#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
-                <element signature="e#1254#1255#0" expanded="true" />
-                <element signature="e#1283#1284#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1347#1348#0" expanded="true" />
-                <element signature="e#1378#1379#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1508#1509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/presenter/TopicCommentsPresenter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/BaseFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+            <state relative-caret-position="486">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#2145#2146#0" expanded="true" />
-                <element signature="e#2171#2172#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/di/ApplicationComponent.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/activity/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+            <state relative-caret-position="324">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -266,37 +133,92 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/TopicCommentsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
+            <state relative-caret-position="302">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1481#1510#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/TopicViewModel.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/CommentsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/LikeEventOnSubscribe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+            <state relative-caret-position="554">
+              <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1663#1664#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/NewsFeedFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="81" column="67" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
+              <folding>
+                <element signature="e#2409#2410#0" expanded="true" />
+                <element signature="e#2427#2428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_base.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/BaseAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/activity/CreatePostActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3158">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2355#2381#0" expanded="true" />
+                <element signature="e#3094#3095#0" expanded="true" />
+                <element signature="e#3137#3138#0" expanded="true" />
+                <element signature="e#3227#3252#0" expanded="true" />
+                <element signature="e#4168#4198#0" expanded="true" />
+                <element signature="e#4992#4993#0" expanded="true" />
+                <element signature="e#5027#5028#0" expanded="true" />
+                <element signature="e#6735#6758#0" expanded="true" />
+                <element signature="e#7176#7202#0" expanded="true" />
+                <element signature="e#7850#7873#0" expanded="true" />
+                <element signature="e#8196#8222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
         </entry>
       </file>
     </leaf>
@@ -304,8 +226,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="Interface" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -321,23 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/LinkExternalViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/LinkExternalAttachmentHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/LinkAttachmentViewHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/LinkAttachmentViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/PageAttachmentHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/PageAttachmentViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/countable/Countable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/Likes.java" />
-        <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/OpenedPostRepostHeaderViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/view/OpenedPostView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/presenter/OpenedPostPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_opened_wall_item.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/OpenedPostFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/attachment/DocImageAttachmentHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Preview.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/VkApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/NewsItemBodyHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/NewsItemBodyViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/WallItem.java" />
@@ -349,15 +255,12 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/item_commnet_header.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/item_comment_body.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/item_comment_model.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/BaseViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/UiHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/view/PostFooterView.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/CommentFooterViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/CommentHeaderViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/VkListHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/mvp/presenter/CommentsPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/CommentsFragment.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/CommentBodyViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/OpenedPostHeaderViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/OpenedCommentPresenter.java" />
@@ -372,6 +275,26 @@
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/di/ApplicationComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/TopicViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/request/BoardGetCommentsRequestModel.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/menu/menu_create_post.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_create_post.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/item_create_post_text.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/BaseViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/SendCommentEventOnSubscribe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/SendCreatedPostEventOnSubscribe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/UploadFileEventOnSubscribe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/UploadPhotoEventOnSubscribe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/CreatePostTextViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/dialog/AddAttachmentDialogFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/BaseAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/activity/CreatePostActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/BaseFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/activity/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_base.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/CommentsFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/NewsFeedFragment.java" />
       </list>
     </option>
   </component>
@@ -411,15 +334,29 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="myownvk" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="mvp" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="android" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="myownvk" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="mvp" type="462c0819:PsiDirectoryNode" />
-              <item name="presenter" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="myownvk" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="myownvk" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="android" type="1abcf292:AndroidViewProjectNode" />
@@ -427,6 +364,14 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="myownvk" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="myownvk" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="android" type="1abcf292:AndroidViewProjectNode" />
@@ -451,7 +396,17 @@
               <item name="android" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -463,7 +418,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="TopicVie&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.view.TopicViewModel.TopicViewHolder&#10;ApiCon&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/consts/ApiConstants.java&#10;ApiMe&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/rest/api/ApiMethods.java&#10;NewsItemFooter&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/NewsItemFooterHolder.java&#10;OpenedCo&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/OpenedCommentFragment.java&#10;OpenedCommen&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.ui.fragment.OpenedCommentPresenter&#10;OpenedPre&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/mvp/presenter/OpenedPostPresenter.java&#10;OpenedPo&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/OpenedPostHeaderViewModel.java&#10;CommentBodyV&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/CommentBodyViewModel.java&#10;NewsItemF&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.ui.view.holder.NewsItemFooterHolder&#10;Appli&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/di/ApplicationComponent.java&#10;UiH&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/common/utils/UiHelper.java&#10;BaseViewMo&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.view.BaseViewModel&#10;WallA&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.rest.api.WallApi&#10;ApiM&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/rest/api/ApiMethods.java&#10;VkLis&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/common/utils/VkListHelper.java&#10;NewsItemB&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.view.NewsItemBodyViewModel&#10;Pr&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Preview.java&#10;Prev&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Preview.java&#10;Preview&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.attachment.doc.Preview&#10;ImageAttach&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/ui/view/attachment/DocImageAttachmentHolder.java&#10;NewsBody&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.ui.view.holder.NewsItemBodyHolder&#10;Likes&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.Likes&#10;VKLi&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.common.utils.VkListHelper&#10;Size&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Size.java&#10;Vk&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.VkApplication&#10;Video&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/video/Video.java&#10;File&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/video/File.java&#10;ImageAt&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/ImageAttachmentViewModel.java&#10;Image&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/ImageAttachmentViewModel.java&#10;BaseViewMod&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/BaseViewModel.java&#10;Utils&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/common/utils/Utils.java" />
+    <property name="SearchEverywhereHistoryKey" value="NewsFeedFr&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.ui.fragment.NewsFeedFragment&#10;Comment&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/CommentsFragment.java&#10;CommentsFra&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/TopicCommentsFragment.java&#10;BaseAc&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.ui.activity.BaseActivity&#10;BaseFra&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/BaseFragment.java&#10;BaseAda&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.common.BaseAdapter&#10;BaseView&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/BaseViewModel.java&#10;TopicVie&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.view.TopicViewModel.TopicViewHolder&#10;ApiCon&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/consts/ApiConstants.java&#10;ApiMe&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/rest/api/ApiMethods.java&#10;NewsItemFooter&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/NewsItemFooterHolder.java&#10;OpenedCo&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/OpenedCommentFragment.java&#10;OpenedCommen&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.ui.fragment.OpenedCommentPresenter&#10;OpenedPre&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/mvp/presenter/OpenedPostPresenter.java&#10;OpenedPo&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/OpenedPostHeaderViewModel.java&#10;CommentBodyV&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/CommentBodyViewModel.java&#10;NewsItemF&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.ui.view.holder.NewsItemFooterHolder&#10;Appli&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/di/ApplicationComponent.java&#10;UiH&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/common/utils/UiHelper.java&#10;BaseViewMo&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.view.BaseViewModel&#10;WallA&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.rest.api.WallApi&#10;ApiM&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/rest/api/ApiMethods.java&#10;VkLis&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/common/utils/VkListHelper.java&#10;NewsItemB&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.view.NewsItemBodyViewModel&#10;Pr&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Preview.java&#10;Prev&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Preview.java&#10;Preview&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.attachment.doc.Preview&#10;ImageAttach&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/ui/view/attachment/DocImageAttachmentHolder.java&#10;NewsBody&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.ui.view.holder.NewsItemBodyHolder&#10;Likes&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.model.Likes&#10;VKLi&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.common.utils.VkListHelper&#10;Size&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Size.java&#10;Vk&#9;PSI&#9;JAVA://ownvk.ruslan.android.myownvk.VkApplication&#10;Video&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/video/Video.java&#10;File&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/video/File.java&#10;ImageAt&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/ImageAttachmentViewModel.java&#10;Image&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/attachment/ImageAttachmentViewModel.java&#10;BaseViewMod&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/model/view/BaseViewModel.java&#10;Utils&#9;FILE&#9;file:///home/ruslan/OwnVk/android/app/src/main/java/ownvk/ruslan/android/myownvk/common/utils/Utils.java" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="AIDL" />
     <property name="device.picker.selection" value="Baytrail3A4662AB" />
@@ -625,7 +580,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.32946378" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32946378" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -642,7 +597,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32975295" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32975295" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
@@ -672,304 +627,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/OpenedPostFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1167">
-          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1320#1352#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/ImageFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/attachment/DocImageAttachmentHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/attachment/ImageAttachmentHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/apt/debug/ownvk/ruslan/android/myownvk/di/DaggerApplicationComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/PhotoPreview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Doc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/attachment/doc/Preview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/BaseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/VkApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/view/holder/NewsItemBodyHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="58" column="88" selection-start-line="58" selection-start-column="88" selection-end-line="58" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/NewsItemBodyViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-          <folding>
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/WallItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
-          <folding>
-            <element signature="e#1719#1720#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2147#2148#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
-            <element signature="e#2329#2330#0" expanded="true" />
-            <element signature="e#2356#2357#0" expanded="true" />
-            <element signature="e#2397#2398#0" expanded="true" />
-            <element signature="e#2429#2430#0" expanded="true" />
-            <element signature="e#2468#2469#0" expanded="true" />
-            <element signature="e#2502#2503#0" expanded="true" />
-            <element signature="e#2557#2558#0" expanded="true" />
-            <element signature="e#2603#2604#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
-            <element signature="e#2669#2670#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2757#2758#0" expanded="true" />
-            <element signature="e#2788#2789#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
-            <element signature="e#2855#2856#0" expanded="true" />
-            <element signature="e#2887#2888#0" expanded="true" />
-            <element signature="e#2921#2922#0" expanded="true" />
-            <element signature="e#2950#2951#0" expanded="true" />
-            <element signature="e#2995#2996#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#3087#3088#0" expanded="true" />
-            <element signature="e#3121#3122#0" expanded="true" />
-            <element signature="e#3280#3281#0" expanded="true" />
-            <element signature="e#3313#3314#0" expanded="true" />
-            <element signature="e#3369#3370#0" expanded="true" />
-            <element signature="e#3413#3414#0" expanded="true" />
-            <element signature="e#3450#3451#0" expanded="true" />
-            <element signature="e#3481#3482#0" expanded="true" />
-            <element signature="e#3531#3532#0" expanded="true" />
-            <element signature="e#3571#3572#0" expanded="true" />
-            <element signature="e#3602#3603#0" expanded="true" />
-            <element signature="e#3630#3631#0" expanded="true" />
-            <element signature="e#3671#3672#0" expanded="true" />
-            <element signature="e#3705#3706#0" expanded="true" />
-            <element signature="e#3740#3741#0" expanded="true" />
-            <element signature="e#3770#3771#0" expanded="true" />
-            <element signature="e#3817#3818#0" expanded="true" />
-            <element signature="e#3855#3856#0" expanded="true" />
-            <element signature="e#3886#3887#0" expanded="true" />
-            <element signature="e#3914#3915#0" expanded="true" />
-            <element signature="e#3955#3956#0" expanded="true" />
-            <element signature="e#3989#3990#0" expanded="true" />
-            <element signature="e#4026#4027#0" expanded="true" />
-            <element signature="e#4059#4060#0" expanded="true" />
-            <element signature="e#4097#4098#0" expanded="true" />
-            <element signature="e#4131#4132#0" expanded="true" />
-            <element signature="e#4183#4184#0" expanded="true" />
-            <element signature="e#4227#4228#0" expanded="true" />
-            <element signature="e#4281#4282#0" expanded="true" />
-            <element signature="e#4327#4328#0" expanded="true" />
-            <element signature="e#4368#4369#0" expanded="true" />
-            <element signature="e#4413#4414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/CommentItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1792#1793#0" expanded="true" />
-            <element signature="e#1827#1828#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-            <element signature="e#2193#2194#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/response/ItemWithSendersResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/api/WallApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/request/WallGetCommentsRequestModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1030,13 +687,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/BaseViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/UiHelper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1100,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/utils/VkListHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="753">
@@ -1124,19 +767,6 @@
             <element signature="e#513#514#0" expanded="true" />
             <element signature="e#1900#1901#0" expanded="true" />
             <element signature="e#1926#1927#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/CommentsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1558#1587#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1182,13 +812,6 @@
             <element signature="e#1372#1373#0" expanded="true" />
             <element signature="e#1391#1392#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/BaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1291,19 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/TopicCommentsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1481#1510#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/di/ApplicationComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1320,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/rest/model/request/BoardGetCommentsRequestModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+        <state relative-caret-position="414">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#818#819#0" expanded="true" />
@@ -1348,6 +958,222 @@
             <element signature="e#1431#1432#0" expanded="true" />
             <element signature="e#1475#1476#0" expanded="true" />
             <element signature="e#1508#1509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/menu_create_post.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_create_post.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/item_create_post_text.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/BaseViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/SendCreatedPostEventOnSubscribe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/UploadFileEventOnSubscribe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/UploadPhotoEventOnSubscribe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/model/view/CreatePostTextViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/dialog/AddAttachmentDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/common/BaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/event/SendCommentEventOnSubscribe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.8.1/4f68b7085132dfeb48a0473bc589fdee8a3de757/butterknife-annotations-8.8.1-sources.jar!/butterknife/BindView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_base.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/activity/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/TopicCommentsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/CommentsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/fragment/NewsFeedFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="81" column="67" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
+          <folding>
+            <element signature="e#2409#2410#0" expanded="true" />
+            <element signature="e#2427#2428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ownvk/ruslan/android/myownvk/ui/activity/CreatePostActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3158">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2355#2381#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3137#3138#0" expanded="true" />
+            <element signature="e#3227#3252#0" expanded="true" />
+            <element signature="e#4168#4198#0" expanded="true" />
+            <element signature="e#4992#4993#0" expanded="true" />
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#6735#6758#0" expanded="true" />
+            <element signature="e#7176#7202#0" expanded="true" />
+            <element signature="e#7850#7873#0" expanded="true" />
+            <element signature="e#8196#8222#0" expanded="true" />
           </folding>
         </state>
       </provider>

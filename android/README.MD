@@ -1,0 +1,1 @@
+Own Vk app only for tutorial 

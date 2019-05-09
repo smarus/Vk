@@ -1,5 +1,6 @@
 package ownvk.ruslan.android.myownvk.ui.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
@@ -12,6 +13,7 @@ import ownvk.ruslan.android.myownvk.VkApplication;
 import ownvk.ruslan.android.myownvk.model.Place;
 import ownvk.ruslan.android.myownvk.mvp.presenter.BaseFeedPresenter;
 import ownvk.ruslan.android.myownvk.mvp.presenter.CommentsPresenter;
+import ownvk.ruslan.android.myownvk.ui.activity.CreatePostActivity;
 
 public class CommentsFragment extends BaseFeedFragment {
 
@@ -38,6 +40,27 @@ public class CommentsFragment extends BaseFeedFragment {
 		mPlace = new Place(getArguments());
 	}
 
+
+
+	@Override
+	public void onResume() {
+		super.onResume();
+		getBaseActivity().mFab.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(getBaseActivity(), CreatePostActivity.class);
+				intent.putExtra("type", "comment");
+				intent.putExtra("owner_id", Integer.parseInt(mPlace.getOwnerId()));
+				intent.putExtra("id", Integer.parseInt(mPlace.getPostId()));
+				startActivityForResult(intent, 0);
+			}
+		});
+	}
+
+	@Override
+	public boolean needFab() {
+		return true;
+	}
 
 
 	@Override

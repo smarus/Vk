@@ -1,9 +1,11 @@
 package ownvk.ruslan.android.myownvk.ui.fragment;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.view.View;
 import android.widget.Toast;
 
 import com.arellomobile.mvp.presenter.InjectPresenter;
@@ -33,6 +35,7 @@ import ownvk.ruslan.android.myownvk.mvp.presenter.NewsFeedPresenter;
 import ownvk.ruslan.android.myownvk.rest.api.WallApi;
 import ownvk.ruslan.android.myownvk.rest.model.request.WallGetRequestModel;
 import ownvk.ruslan.android.myownvk.rest.model.response.GetWallResponse;
+import ownvk.ruslan.android.myownvk.ui.activity.CreatePostActivity;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -67,6 +70,24 @@ public class NewsFeedFragment extends BaseFeedFragment {
 	public void onActivityCreated(@Nullable Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 
+	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+		getBaseActivity().mFab.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+
+				Intent intent = new Intent(getActivity(), CreatePostActivity.class);
+				startActivityForResult(intent, 0);
+			}
+		});
+	}
+
+	@Override
+	public boolean needFab() {
+		return true;
 	}
 
 

@@ -56,6 +56,15 @@ public class BaseAdapter extends RecyclerView.Adapter<BaseViewHolder<BaseViewMod
 	}
 
 
+
+	public void insertItem(BaseViewModel newItem) {
+		registerTypeInstance(newItem);
+
+		list.add(newItem);
+		notifyItemInserted(getItemCount() - 1);
+	}
+
+
 	public void clearList() {
 		list.clear();
 	}
